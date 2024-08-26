@@ -264,6 +264,7 @@ const myNum = [1,2,3]
       Price : 5000
     }
   ]
+  
 
  const price2 = shopingCart.reduce ( ( acc , items) => {
   console.log(`price of item : ${items.itemname} is ${items.Price}`)
@@ -271,6 +272,7 @@ const myNum = [1,2,3]
 
 
 console.log(price2); //7799
+
 
 
 
