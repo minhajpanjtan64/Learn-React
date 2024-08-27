@@ -44,10 +44,10 @@ return (
       textAlign: 'center'
     }}>
       <h1>Value Counter</h1>
-      <h2>counter value: {counter}</h2>
-      <button onClick={addValue}>add value</button>
+      <h2>Counter Value: {counter}</h2>
+      <button onClick={addValue} style={{marginBottom:'5px'}}>Add value </button>
       <br />
-      <button onClick={removeValue}>remove value</button>
+      <button onClick={removeValue}>Remove value</button>
     </div>
 
   )
